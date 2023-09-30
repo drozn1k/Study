@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/first/style/style.css">
+    <link rel="stylesheet" href="/first/style/reset.css">
+    <link rel="stylesheet" href="/first/fonts/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rozetka</title>
+</head>
+<body>
+    <div class="wrapper" >
+        
+          <div class="result_work">
+               <h1>Task: </h1>
+               <p>На підставі значень в змінних та їх типів, обчислити кількість років особи якщо вона живе у 2030 році. Вивести результат в консоль в форматі:<br>
+                <br>У (рік) році (ІМ'Я) (прізвище) буде мати вік (обчислене число) років <br>
+                (рік), (ІМ'Я), (прізвище), (обчислене число) виводити через змінні формату ${}<br>
+                <br>let yearBorn = "1984"; <br>
+                const currentYear = 2030; <br>
+                let fullName = 'Вязовська арина Сергіївна'; // правильне ім'я Марина <br>
+            </p>
+          </div>
+        <div class="result_block">
+            <h2>Solution: </h2>
+          <div id="result"></div>
+        </div>
+        <div class="type_in_main"> 
+            <div class="type_in_text">
+                <p>Це вже зробив я, щоб можна було вводити данні самостійно</p><br>
+            </div>
+            <div class="type_in_form_block">
+            <form id="type_in_form">
+                <div class="type_in_yearBorn">
+                    <label for="yearBorn">Рік народження:</label>
+                    <input type="text" id="yearBorn" name="yearBorn">
+                </div>
+        
+                <div class="type_in_fullName">
+                    <label for="fullName">Повне ім'я:</label>
+                    <input type="text" id="fullName" name="fullName">
+                </div>
+        
+                <button class="type_in_button" type="button" onclick="calculateAge()">Розрахувати вік</button>
+        </div>
+        <div class="result_block">
+            <h2>Solution: </h2>
+            <div id="result_form"></div>
+        </div>
+      </div>
+    
+    <script src="/first/js/script.js"></script>
+</body>
+</html>
