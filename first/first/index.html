@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./fonts/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rozetka</title>
+</head>
+<body>
+    <div class="wrapper" >
+        <div class="form_main">
+            <h1>Задачка 1</h1>
+            <p>// Напишіть програму, яка отримує у змінну х число від користувача. <br>
+                // Перевіряє чи є введені дані числом.<br>
+                // Виводить повідомлення в консоль залежно від результату перевірки та значення змінної:<br>
+                
+                // Якщо x не є числом, вивести "використано некоректний формат".<br>
+                // Якщо x більше 10, вивести "x більше 10".<br>
+                // Якщо x менше 10, вивести "x менше 10".<br>
+                // Якщо x дорівнює 10, вивести "x дорівнює 10".</p>
+            <div class="form_ex1">
+                <form id="type_in_form">
+                    <label for="x" class="type_in_fullName">Введіть число</label>
+                    <input type="text" id="x" name="x">
+                    <button class="type_in_button" type="button" onclick="whatNumber()">Розрахувати</button>
+                </form>
+            </div>
+        </div>
+        <div class="form_main">
+            <h1>Задачка 2</h1>
+            <p>Підрахунок суми чисел: Напишіть функцію, яка приймає два числа як параметри і повертає їх суму. Напишіть також код для виклику цієї функції та виведення результату на екран.</p>
+            <div class="form_ex1">
+                <form id="type_in_form">
+                    <label for="a" class="type_in_fullName">Введіть перше число</label>
+                    <input type="text" id="a" name="a">
+                    <label for="b" class="type_in_fullName">Введіть друге число</label>
+                    <input type="text" id="b" name="b">
+                    <button class="type_in_button" type="button" onclick="sumNumbers()">Розрахувати</button>
+                </form>
+            </div>
+        </div>
+        <div class="form_main">
+            <h1>Задачка 3</h1>
+            <p>Перевірка парності числа: Напишіть функцію, яка приймає число як параметр і повертає true, якщо число парне, і false, якщо воно непарне. Виведіть результати перевірки для декількох чисел на екран.</p>
+            <div class="form_ex1">
+                <form id="type_in_form">
+                    <label for="ex3" class="type_in_fullName">Введіть число</label>
+                    <input type="text" id="ex3" name="ex3">
+                    <button class="type_in_button" type="button" onclick="pairNumber()">Розрахувати</button>
+                </form>
+            </div>
+        </div>
+        <div class="form_main">
+            <h1>Задачка 4</h1>
+            <p>Обчислення факторіалу: Напишіть функцію, яка обчислює факторіал числа (добуток всіх цілих чисел від 1 до цього числа). Напишіть код для виклику цієї функції та виведення результату на екран.</p>
+            <div class="form_ex1">
+                <form id="type_in_form">
+                    <label for="ex3" class="type_in_fullName">Введіть число</label>
+                    <input type="text" id="ex3" name="ex3">
+                    <button class="type_in_button" type="button" onclick="pairNumber()">Розрахувати</button>
+                </form>
+            </div>
+        </div>
+          <!-- <div class="result_work">
+               <h1>Task: </h1>
+               <p>На підставі значень в змінних та їх типів, обчислити кількість років особи якщо вона живе у 2030 році. Вивести результат в консоль в форматі:<br>
+                <br>У (рік) році (ІМ'Я) (прізвище) буде мати вік (обчислене число) років <br>
+                (рік), (ІМ'Я), (прізвище), (обчислене число) виводити через змінні формату ${}<br>
+                <br>let yearBorn = "1984"; <br>
+                const currentYear = 2030; <br>
+                let fullName = 'Вязовська арина Сергіївна'; // правильне ім'я Марина <br>
+            </p>
+          </div>
+        <div class="result_block">
+            <h2>Solution: </h2>
+          <div id="result"></div>
+        </div>
+        <div class="type_in_main"> 
+            <div class="type_in_text">
+                <p>Це вже зробив я, щоб можна було вводити данні самостійно</p><br>
+            </div>
+            <div class="type_in_form_block">
+            <form id="type_in_form">
+                <div class="type_in_yearBorn">
+                    <label for="yearBorn">Рік народження:</label>
+                    <input type="text" id="yearBorn" name="yearBorn">
+                </div>
+        
+                <div class="type_in_fullName">
+                    <label for="fullName">Повне ім'я:</label>
+                    <input type="text" id="fullName" name="fullName">
+                </div>
+        
+                <button class="type_in_button" type="button" onclick="calculateAge()">Розрахувати вік</button>
+        </div>
+        <div class="result_block">
+            <h2>Solution: </h2>
+            <div id="result_form"></div>
+        </div> -->
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: dimgrey;
+}
+.header{
+    display: flex;
+    background-color: #fff;
+    height: 100px;
+}
+.header .logo{
+    /* background-color: aquamarine; */
+    height: 100%;
+    width: 15%;
+    font-size: 30px;
+}
+.header .logo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: cadetblue;
+    height: 100%;
+    width: 100%;
+}
+.header .search-bar{
+    /* background-color: blueviolet; */
+    height: 100%;
+    width: 55%;
+}
+.header .menu{
+    /* background-color: rgb(146, 206, 140); */
+    height: 100%;
+    width: 30%;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#search {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.search-bar button {
+    background-color: cadetblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+.menu{
+    display: flex;
+}
+.menu .login{
+    /* background-color: aquamarine; */
+    height: 100%;
+    width: 33.33%;
+    font-size: 20px;
+}
+.menu .wishlist{
+    /* background-color: aquamarine; */
+    height: 100%;
+    width: 33.33%;
+    font-size: 20px;
+}
+.menu .buket{
+    /* background-color: aquamarine; */
+    height: 100%;
+    width: 33.33%;
+    font-size: 20px;
+}
+.menu .wishlist a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: cadetblue;
+    height: 100%;
+    width: 100%;
+}
+.menu .buket a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: cadetblue;
+    height: 100%;
+    width: 100%;
+}
+.menu .login a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: cadetblue;
+    height: 100%;
+    width: 100%;
+}
+.menu .login a:hover{
+    color: rgb(0, 247, 255);
+}
+#login-form{
+    display: none;
+}
+.login-form{
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 700px;
+    border: 1px solid cadetblue;
+    border-radius: 20px;
+    padding: 20px;
+    /* background-color: #d88989; */
+}
+.close-window-button {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: #0056b3;
+    border-radius: 50px;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.close-window-button:hover {
+    background-color: #e77427;
+}
+
+.login-form h2 {
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    color: #ccc;
+}
+
+/* Стилі для полів введення */
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+}
+#login-forma .login-form-button {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 50px;
+    background-color: cadetblue;
+    color: #fff;
+    border-radius: 5px;
+}
+#login-forma .login-form-button:hover {
+    background-color: #0056b3;
+}
+#password::placeholder{
+    color: #ccc;
+}
+#username::placeholder{
+    color: #ccc;
+}

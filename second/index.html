@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telemart</title>
+</head>
+<body>
+    <div class="wrapper">   
+        <div class="header">
+            <div class="logo">
+                <a href="#">Telemart</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Пошук...">
+                <button>Пошук</button>
+            </div>
+            <div class="menu">
+                <div class="login">
+                    <a href="#" id="showLoginFormLink">Login</a>
+                </div>
+                <div class="wishlist">
+                    <a href="#" id="">Wishlist</a>
+                </div>
+                <div class="buket">
+                    <a href="#" id="">Buket</a>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="login-form" id="login-form">
+                <div class="close-window">
+                    <a href="#" id="closeButton" class="close-window-button"></a>
+                </div>
+                <h2>Вхід</h2>
+                <form id="login-forma">
+                    <label for="username" class="login-form-name"></label>
+                    <input type="text" id="username" name="username" placeholder="Ім'я користувача">
+
+                    <label for="password" class="login-form-password"></label>
+                    <input type="password" id="password" name="password" placeholder="Пароль">
+
+                    <button type="submit" class="login-form-button">Увійти</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>

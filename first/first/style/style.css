@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'heebo-black-webfont';
+    src: url('/first/fonts/heebo-black-webfont.woff2') format('woff2'),
+         url('/first/fonts/heebo-black-webfont.woff') format('woff');
+  }  
+@font-face {
+    font-family: 'heebo-bold-webfont';
+    src: url('/first/fonts/heebo-bold-webfont.woff2') format('woff2'),
+         url('/first/fonts/heebo-bold-webfont.woff') format('woff');
+  }  
+@font-face {
+    font-family: 'heebo-medium-webfont';
+    src: url('/first/fonts/heebo-medium-webfont.woff2') format('woff2'),
+         url('/first/fonts/heebo-medium-webfont.woff') format('woff');
+  }  
+@font-face {
+    font-family: 'heebo-regular-webfont';
+    src: url('/first/fonts/heebo-regular-webfont.woff2') format('woff2'),
+         url('/first/fonts/heebo-regular-webfont.woff') format('woff');
+  } 
+
+body{
+    background-color:thistle;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+h1, h2{
+    font-family: 'heebo-bold-webfont';
+    font-weight: 700;
+    font-size: 40px;
+}
+.bold{
+    font-family: 'heebo-regular-webfont';
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 20px 30px;
+}
+.form_main h1{
+    font-size: 40px;
+}
+.form_main p{
+    font-family: 'heebo-medium-webfont';
+    font-size: 20px;
+}
+.result_work{
+    background-color: burlywood;
+    padding: 25px;
+    border-radius: 10px;
+}
+.result_block, .result_form{
+    margin: 30px 0 50px 0 ;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.type_in_main{
+    width: 100%;
+}
+.type_in_form_block{
+    display: flex;
+    flex-direction: column;
+    
+}
+.type_in_yearBorn{
+    width: 60%;
+    background-color: teal;
+    padding: 10px 45px;
+    border-radius: 40px 0 0 0;
+    font-size: 20px;
+    font-weight: 500;
+    color:burlywood;
+    border: 2px solid burlywood; 
+    border-bottom: none;
+}
+.type_in_fullName{
+    width: 60%;
+    background-color: teal;
+    padding: 10px 45px;
+    border-radius:  0 0 0 0;
+    font-size: 20px;
+    font-weight: 500;
+    color:burlywood;
+    border: 2px solid burlywood; 
+}
+.type_in_button{
+    width: 60%;
+    background-color: teal;
+    padding: 30px 45px;
+    border-radius: 0 0 40px 0;
+    font-size: 25px;
+    font-weight: 700;
+    color:burlywood;
+    border: 2px solid burlywood; 
+    border-top: none;
+    transition: ease-in 0.2s;
+}
+.type_in_button:hover{
+    background-color: burlywood;
+    color:teal;
+}
+input[type="text"] {
+    padding: 7px;
+    border: 2px solid burlywood; 
+    background-color: burlywood;
+    border-radius: 10px;
+    color: teal;
+}
